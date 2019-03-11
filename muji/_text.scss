@@ -1,0 +1,5 @@
+@each $align in $text-align {
+  .t-#{$align}{
+    text-align: $align;
+  }
+}

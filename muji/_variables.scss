@@ -1,0 +1,15 @@
+$grid: 12;
+$colors: (
+  primary: #111,
+  secondary: #999,
+  dark: #000,
+  light: #eee,
+);
+$breakpoints: (
+  sm:480px,
+  md:768px,
+  lg:960px,
+  xl:1200px,
+);
+$text-align: left center right;
+$positions: relative absolute fixed;

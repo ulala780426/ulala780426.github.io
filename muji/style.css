@@ -1,0 +1,415 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Microsoft Jhenghei";
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.fixed-width {
+  width: 100%;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+  width: 100%;
+  padding: 10px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 480px) {
+  .fixed-width {
+    margin: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .col-sm-1 {
+    float: left;
+    width: 8.33333%;
+  }
+  .col-sm-2 {
+    float: left;
+    width: 16.66667%;
+  }
+  .col-sm-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-sm-4 {
+    float: left;
+    width: 33.33333%;
+  }
+  .col-sm-5 {
+    float: left;
+    width: 41.66667%;
+  }
+  .col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-sm-7 {
+    float: left;
+    width: 58.33333%;
+  }
+  .col-sm-8 {
+    float: left;
+    width: 66.66667%;
+  }
+  .col-sm-9 {
+    float: left;
+    width: 75%;
+  }
+  .col-sm-10 {
+    float: left;
+    width: 83.33333%;
+  }
+  .col-sm-11 {
+    float: left;
+    width: 91.66667%;
+  }
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fixed-width {
+    margin: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .col-md-1 {
+    float: left;
+    width: 8.33333%;
+  }
+  .col-md-2 {
+    float: left;
+    width: 16.66667%;
+  }
+  .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-md-4 {
+    float: left;
+    width: 33.33333%;
+  }
+  .col-md-5 {
+    float: left;
+    width: 41.66667%;
+  }
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-7 {
+    float: left;
+    width: 58.33333%;
+  }
+  .col-md-8 {
+    float: left;
+    width: 66.66667%;
+  }
+  .col-md-9 {
+    float: left;
+    width: 75%;
+  }
+  .col-md-10 {
+    float: left;
+    width: 83.33333%;
+  }
+  .col-md-11 {
+    float: left;
+    width: 91.66667%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .fixed-width {
+    margin: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .col-lg-1 {
+    float: left;
+    width: 8.33333%;
+  }
+  .col-lg-2 {
+    float: left;
+    width: 16.66667%;
+  }
+  .col-lg-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-lg-4 {
+    float: left;
+    width: 33.33333%;
+  }
+  .col-lg-5 {
+    float: left;
+    width: 41.66667%;
+  }
+  .col-lg-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-lg-7 {
+    float: left;
+    width: 58.33333%;
+  }
+  .col-lg-8 {
+    float: left;
+    width: 66.66667%;
+  }
+  .col-lg-9 {
+    float: left;
+    width: 75%;
+  }
+  .col-lg-10 {
+    float: left;
+    width: 83.33333%;
+  }
+  .col-lg-11 {
+    float: left;
+    width: 91.66667%;
+  }
+  .col-lg-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fixed-width {
+    margin: auto;
+    width: 1200px;
+  }
+  .col-xl-1 {
+    float: left;
+    width: 8.33333%;
+  }
+  .col-xl-2 {
+    float: left;
+    width: 16.66667%;
+  }
+  .col-xl-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-xl-4 {
+    float: left;
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    float: left;
+    width: 41.66667%;
+  }
+  .col-xl-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-xl-7 {
+    float: left;
+    width: 58.33333%;
+  }
+  .col-xl-8 {
+    float: left;
+    width: 66.66667%;
+  }
+  .col-xl-9 {
+    float: left;
+    width: 75%;
+  }
+  .col-xl-10 {
+    float: left;
+    width: 83.33333%;
+  }
+  .col-xl-11 {
+    float: left;
+    width: 91.66667%;
+  }
+  .col-xl-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+nav {
+  height: 70px;
+  line-height: 70px;
+}
+
+nav .logo {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav .menu {
+  float: left;
+}
+
+nav .menu li {
+  float: left;
+}
+
+nav .menu li a {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav .menu li a:hover {
+  color: #666;
+}
+
+nav .search {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.bg-primary {
+  background-color: #111;
+}
+
+.bg-secondary {
+  background-color: #999;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: #eee;
+}
+
+.t-primary {
+  color: #111;
+}
+
+.t-secondary {
+  color: #999;
+}
+
+.t-dark {
+  color: #000;
+}
+
+.t-light {
+  color: #eee;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+header .col-sm-12 {
+  padding-top: 0;
+}
+
+footer li {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
+footer ul {
+  border-bottom: 1px solid #fff;
+}
+
+footer .copy-left {
+  float: none;
+  margin-bottom: 5px;
+}
+
+footer .copy-right {
+  float: none;
+}
+
+@media screen and (min-width: 768px) {
+  footer li {
+    width: auto;
+  }
+  footer .copy-left {
+    float: left;
+  }
+  footer .copy-right {
+    float: left;
+    margin-left: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+* {
+    font-family: "Microsoft Jhenghei";
+    font-size: 14px;
+}
+.gotop {
+    width: 40px;
+    height: 40px;
+    background: #a04e1f;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: #d82a2a;
+    text-decoration: none;
+}
+#intro .wrapper {
+    max-width: 960px;
+}

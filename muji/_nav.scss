@@ -1,0 +1,28 @@
+nav {
+  height: 70px;
+  line-height: 70px;
+  .logo {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .menu {
+    float: left;
+    li {
+      float: left;
+      a {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+  }
+  .search {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
